@@ -1,13 +1,23 @@
 fileFormatVersion: 2
 guid: 72e1c7fd2c480e449bb27a1c3564c30c
-timeCreated: 1491976614
+timeCreated: 1491988275
 licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Score_Enemy_stick_animation_sheet_0
+    21300002: Score_Enemy_stick_animation_sheet_1
+    21300004: Score_Enemy_stick_animation_sheet_2
+    21300006: Score_Enemy_stick_animation_sheet_3
+    21300008: Score_Enemy_stick_animation_sheet_4
+    21300010: Score_Enemy_stick_animation_sheet_5
+    21300012: Score_Enemy_stick_animation_sheet_6
+    21300014: Score_Enemy_stick_animation_sheet_7
+    21300016: Score_Enemy_stick_animation_sheet_8
+    21300018: Score_Enemy_stick_animation_sheet_9
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -30,11 +40,11 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
@@ -58,9 +68,171 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Score_Enemy_stick_animation_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 818
+        width: 130
+        height: 206
+      alignment: 9
+      pivot: {x: 0.6151599, y: 0.38819426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Score_Enemy_stick_animation_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 815
+        width: 139
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5497092, y: 0.38979942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Score_Enemy_stick_animation_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 581
+        width: 109
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5211302, y: 0.38484004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Score_Enemy_stick_animation_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 578
+        width: 103
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.38699284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Score_Enemy_stick_animation_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 579
+        width: 98
+        height: 211
+      alignment: 9
+      pivot: {x: 0.52350193, y: 0.40175945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Score_Enemy_stick_animation_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 578
+        width: 98
+        height: 209
+      alignment: 9
+      pivot: {x: 0.58225703, y: 0.41183954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Score_Enemy_stick_animation_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 575
+        width: 86
+        height: 218
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.42604414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Score_Enemy_stick_animation_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 357
+        width: 166
+        height: 201
+      alignment: 9
+      pivot: {x: 0.44450152, y: 0.42551857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Score_Enemy_stick_animation_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 359
+        width: 190
+        height: 201
+      alignment: 9
+      pivot: {x: 0.4151455, y: 0.34530777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Score_Enemy_stick_animation_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 346
+        width: 240
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5143951, y: 1.3858439}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

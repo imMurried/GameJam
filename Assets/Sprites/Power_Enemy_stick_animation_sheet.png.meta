@@ -1,13 +1,23 @@
 fileFormatVersion: 2
 guid: f64a34d7fbbeaec4db1a0a49ebecb553
-timeCreated: 1491976614
+timeCreated: 1491988197
 licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Power_Enemy_stick_animation_sheet_0
+    21300002: Power_Enemy_stick_animation_sheet_1
+    21300004: Power_Enemy_stick_animation_sheet_2
+    21300006: Power_Enemy_stick_animation_sheet_3
+    21300008: Power_Enemy_stick_animation_sheet_4
+    21300010: Power_Enemy_stick_animation_sheet_5
+    21300012: Power_Enemy_stick_animation_sheet_6
+    21300014: Power_Enemy_stick_animation_sheet_28
+    21300016: Power_Enemy_stick_animation_sheet_7
+    21300018: Power_Enemy_stick_animation_sheet_8
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -30,11 +40,11 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
@@ -58,9 +68,171 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Power_Enemy_stick_animation_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 589
+        width: 115
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.37737614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Power_Enemy_stick_animation_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 808
+        width: 131
+        height: 216
+      alignment: 9
+      pivot: {x: 0.60548973, y: 0.42535937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Power_Enemy_stick_animation_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 588
+        width: 110
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5104695, y: 0.37737614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Power_Enemy_stick_animation_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 588
+        width: 109
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5105652, y: 0.37737584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Power_Enemy_stick_animation_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 588
+        width: 108
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37737614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Power_Enemy_stick_animation_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 347
+        width: 146
+        height: 216
+      alignment: 9
+      pivot: {x: 0.42112377, y: 0.42002797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Power_Enemy_stick_animation_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 109
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5105651, y: 0.33472443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Power_Enemy_stick_animation_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 808
+        width: 131
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5879086, y: 0.4040335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Power_Enemy_stick_animation_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 377
+        width: 185
+        height: 147
+      alignment: 9
+      pivot: {x: 0.48755032, y: 0.28064796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Power_Enemy_stick_animation_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 338
+        width: 247
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5046625, y: 1.4268951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

@@ -6,6 +6,13 @@ public class Game_Script : MonoBehaviour {
 
     public GameObject player;
     public GameObject enemyManager;
+    public GameObject mainCamera;
+
+    private float shiftTimer;
+
+    public float cameraOffset;
+
+    public float cameraDelay;
 
 	// Use this for initialization
 	void Start () {
@@ -16,12 +23,18 @@ public class Game_Script : MonoBehaviour {
 	void Update () {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            enemyManager.GetComponent<EnemyManager_Script>().Spawn(Enemy_Script.TYPE.NORMAL);
+            enemyManager.GetComponent<EnemyManager_Script>().SpawnGroup(0);
+        }
+
+        shiftTimer -= Time.deltaTime;
+        if (shiftTimer < 0)
+        {
+            mainCamera.transform.position = new Vector3(player.transform.position.x - cameraOffset, mainCamera.transform.position.y, mainCamera.transform.position.z);
         }
 	}
 
-    public void ShiftLevel (float amount)
+    public void ShiftCamera ()
     {
-
+        shiftTimer = cameraDelay;
     }
 }
