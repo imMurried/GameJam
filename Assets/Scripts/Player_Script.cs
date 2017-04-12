@@ -34,6 +34,11 @@ public class Player_Script : MonoBehaviour {
     public GameObject enemyManager;
     public GameObject indicator;
 
+    public float immunityTimer;
+    private float immunityCounter;
+
+    public int hp = 0;
+
     public Sprite[] sprites;
     private float animTimer;
     private int lastBasic;
@@ -78,9 +83,15 @@ public class Player_Script : MonoBehaviour {
             timeSinceLastPunch = 0;
         }
 
+        if (nextEnemy != null && nextEnemy.transform.position.x - transform.position.x <= 0 && immunityTimer < 0)
+        {
+            GetHit();
+        }
+
         playerSprite.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
 
         timeSinceLastPunch += Time.deltaTime;
+        immunityTimer -= Time.deltaTime;
 
         animTimer -= Time.deltaTime;
         if (animTimer < 0 && animTimer > -timePhasePower) playerSprite.GetComponent<SpriteRenderer>().sprite = sprites[(int)ANIMATION.IDLE];
@@ -183,5 +194,11 @@ public class Player_Script : MonoBehaviour {
         if (sprites[(int)anim] == null) print("missing animation: " + anim);
 
         print(anim);
+    }
+
+    void GetHit()
+    {
+        hp--;
+        immunityCounter = immunityTimer;
     }
 }

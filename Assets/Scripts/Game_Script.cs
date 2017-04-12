@@ -31,10 +31,20 @@ public class Game_Script : MonoBehaviour {
         {
             mainCamera.transform.position = new Vector3(player.transform.position.x - cameraOffset, mainCamera.transform.position.y, mainCamera.transform.position.z);
         }
+
+        if (player.GetComponent<Player_Script>().hp <= 0)
+        {
+            Lose();
+        }
 	}
 
     public void ShiftCamera ()
     {
         shiftTimer = cameraDelay;
+    }
+
+    public void Lose()
+    {
+
     }
 }

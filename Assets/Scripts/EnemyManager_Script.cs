@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-enum ENEMYANIMATION
+public enum ENEMYANIMATION
 {
     IDLE,
     BASIC1,
@@ -120,6 +120,7 @@ public class EnemyManager_Script : MonoBehaviour {
         script.player = player;
         script.alive = true;
         script.type = t;
+        script.manager = this.gameObject;
 
         tempEnemy.transform.position = this.transform.position;
 

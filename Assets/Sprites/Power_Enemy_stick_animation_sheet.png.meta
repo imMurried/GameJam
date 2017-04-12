@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f64a34d7fbbeaec4db1a0a49ebecb553
-timeCreated: 1491988197
+timeCreated: 1491995537
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -12,8 +12,8 @@ TextureImporter:
     21300010: Power_Enemy_stick_animation_sheet_5
     21300012: Power_Enemy_stick_animation_sheet_6
     21300014: Power_Enemy_stick_animation_sheet_28
-    21300016: Power_Enemy_stick_animation_sheet_7
-    21300018: Power_Enemy_stick_animation_sheet_8
+    21300016: Power_Enemy_stick_animation_sheet_8
+    21300018: Power_Enemy_stick_animation_sheet_9
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -208,7 +208,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Power_Enemy_stick_animation_sheet_7
+      name: Power_Enemy_stick_animation_sheet_8
       rect:
         serializedVersion: 2
         x: 172
@@ -221,7 +221,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Power_Enemy_stick_animation_sheet_8
+      name: Power_Enemy_stick_animation_sheet_9
       rect:
         serializedVersion: 2
         x: 359
