@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Basic Punch 3_data" version="1.3.0" audacityversion="2.1.2" sel0="0.0000000000" sel1="0.3415873016" vpos="0" h="0.0000000000" zoom="2221.9795539033" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="GENRE" value="Sound Clip"/>
+		<tag name="TITLE" value="Fight Sounds Punches"/>
+		<tag name="ARTIST" value="SoundBible.com"/>
+	</tags>
+	<wavetrack name="Left Hook-SoundBible.com-516660386" channel="0" linked="1" mute="0" solo="0" height="149" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="15064">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000825.au" len="15064" min="-0.883301" max="0.878448" rms="0.150758"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="4">
+				<controlpoint t="0.011251228643" val="0.985815644264"/>
+				<controlpoint t="0.135914842002" val="0.886524796486"/>
+				<controlpoint t="0.249327226719" val="0.390070915222"/>
+				<controlpoint t="0.307833615660" val="0.049645423889"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Left Hook-SoundBible.com-516660386" channel="1" linked="0" mute="0" solo="0" height="149" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="15064">
+				<waveblock start="0">
+					<simpleblockfile filename="e000099b.au" len="15064" min="-0.353302" max="0.351379" rms="0.060298"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="4">
+				<controlpoint t="0.011251228643" val="0.985815644264"/>
+				<controlpoint t="0.135914842002" val="0.886524796486"/>
+				<controlpoint t="0.249327226719" val="0.390070915222"/>
+				<controlpoint t="0.307833615660" val="0.049645423889"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Grunt 2_data" version="1.3.0" audacityversion="2.1.2" sel0="0.0000000000" sel1="0.9065986395" vpos="0" h="0.0000000000" zoom="953.0220903162" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="159344__huminaatio__grunts-sounds-for-arcade-type-of-games" channel="0" linked="1" mute="0" solo="0" height="134" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="39981">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000c6c.au" len="39981" min="-0.694977" max="0.844818" rms="0.084036"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="8">
+				<controlpoint t="0.004197174484" val="0.222222208977"/>
+				<controlpoint t="0.121718060031" val="0.507936477661"/>
+				<controlpoint t="0.249731881788" val="0.825396776199"/>
+				<controlpoint t="0.321083848013" val="0.936507940292"/>
+				<controlpoint t="0.548780563761" val="0.412698388100"/>
+				<controlpoint t="0.756540700710" val="0.285714268684"/>
+				<controlpoint t="0.886653109709" val="0.095238089561"/>
+				<controlpoint t="0.906584688507" val="0.000000100000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="159344__huminaatio__grunts-sounds-for-arcade-type-of-games" channel="1" linked="0" mute="0" solo="0" height="134" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="39981">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000617.au" len="39981" min="-0.664948" max="0.815826" rms="0.08091"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="8">
+				<controlpoint t="0.004197174484" val="0.222222208977"/>
+				<controlpoint t="0.121718060031" val="0.507936477661"/>
+				<controlpoint t="0.249731881788" val="0.825396776199"/>
+				<controlpoint t="0.321083848013" val="0.936507940292"/>
+				<controlpoint t="0.548780563761" val="0.412698388100"/>
+				<controlpoint t="0.756540700710" val="0.285714268684"/>
+				<controlpoint t="0.886653109709" val="0.095238089561"/>
+				<controlpoint t="0.906584688507" val="0.000000100000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+</project>

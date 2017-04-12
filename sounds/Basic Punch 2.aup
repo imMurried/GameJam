@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Basic Punch 2_data" version="1.3.0" audacityversion="2.1.2" sel0="0.0000000000" sel1="0.2670521542" vpos="0" h="0.0000000000" zoom="2842.1414621720" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="GENRE" value="Sound Clip"/>
+		<tag name="TITLE" value="Fight Sounds Punches"/>
+		<tag name="ARTIST" value="SoundBible.com"/>
+	</tags>
+	<wavetrack name="Jab-SoundBible.com-1806727891" channel="0" linked="1" mute="0" solo="0" height="170" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="11777">
+				<waveblock start="0">
+					<simpleblockfile filename="e00006f3.au" len="11777" min="-0.896851" max="0.898102" rms="0.153744"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="5">
+				<controlpoint t="0.001055542111" val="0.938271582127"/>
+				<controlpoint t="0.143201879786" val="0.962962985039"/>
+				<controlpoint t="0.208293643325" val="0.592592597008"/>
+				<controlpoint t="0.257200427822" val="0.209876537323"/>
+				<controlpoint t="0.267047154195" val="0.049382686615"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Jab-SoundBible.com-1806727891" channel="1" linked="0" mute="0" solo="0" height="170" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="11777">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000bd9.au" len="11777" min="-0.896851" max="0.898102" rms="0.153744"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="5">
+				<controlpoint t="0.001055542111" val="0.938271582127"/>
+				<controlpoint t="0.143201879786" val="0.962962985039"/>
+				<controlpoint t="0.208293643325" val="0.592592597008"/>
+				<controlpoint t="0.257200427822" val="0.209876537323"/>
+				<controlpoint t="0.267047154195" val="0.049382686615"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+</project>

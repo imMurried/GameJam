@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Grunt 3_data" version="1.3.0" audacityversion="2.1.2" sel0="0.0000000000" sel1="0.6715646259" vpos="0" h="0.2932775671" zoom="1906.0441806323" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="159344__huminaatio__grunts-sounds-for-arcade-type-of-games" channel="0" linked="1" mute="0" solo="0" height="146" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="29616">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000f58.au" len="29616" min="-0.220856" max="0.316315" rms="0.021265"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="12">
+				<controlpoint t="0.176281328321" val="0.028985500336"/>
+				<controlpoint t="0.237140358336" val="0.000000100000"/>
+				<controlpoint t="0.285407864900" val="0.144927501678"/>
+				<controlpoint t="0.292752920247" val="0.434782624245"/>
+				<controlpoint t="0.303770503267" val="0.652173876762"/>
+				<controlpoint t="0.384041465270" val="1.014492750168"/>
+				<controlpoint t="0.423914622867" val="0.855072498322"/>
+				<controlpoint t="0.514678521079" val="0.652173876762"/>
+				<controlpoint t="0.558224206349" val="0.231884002686"/>
+				<controlpoint t="0.634822640679" val="0.159420251846"/>
+				<controlpoint t="0.670498623792" val="0.072463750839"/>
+				<controlpoint t="0.671542917413" val="0.000000100000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="159344__huminaatio__grunts-sounds-for-arcade-type-of-games" channel="1" linked="0" mute="0" solo="0" height="146" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="29616">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000398.au" len="29616" min="-0.213989" max="0.306427" rms="0.020444"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="12">
+				<controlpoint t="0.176281328321" val="0.028985500336"/>
+				<controlpoint t="0.237140358336" val="0.000000100000"/>
+				<controlpoint t="0.285407864900" val="0.144927501678"/>
+				<controlpoint t="0.292752920247" val="0.434782624245"/>
+				<controlpoint t="0.303770503267" val="0.652173876762"/>
+				<controlpoint t="0.384041465270" val="1.014492750168"/>
+				<controlpoint t="0.423914622867" val="0.855072498322"/>
+				<controlpoint t="0.514678521079" val="0.652173876762"/>
+				<controlpoint t="0.558224206349" val="0.231884002686"/>
+				<controlpoint t="0.634822640679" val="0.159420251846"/>
+				<controlpoint t="0.670498623792" val="0.072463750839"/>
+				<controlpoint t="0.671542917413" val="0.000000100000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+</project>
